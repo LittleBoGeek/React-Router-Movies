@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MovieList from './Movies/MovieList';
 import SavedList from './Movies/SavedList';
 import Movie from './Movies/Movie';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 
 const App = () => {
